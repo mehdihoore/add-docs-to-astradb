@@ -85,7 +85,7 @@ OPENAI_API_KEY = userdata.get("OPENAI_API_KEY")
 Document Processing
 # DocumentProcessor: Handles the loading of documents from various formats (PDF, DOCX, TXT).
 RecursiveCharacterTextSplitterComponent: Splits large text into smaller chunks for efficient processing.
-# OpenAIEmbeddingsComponent: Generates embeddings for text chunks using OpenAI's API.
+OpenAIEmbeddingsComponent: Generates embeddings for text chunks using OpenAI's API.
 # Database Management
 AstraDBManager: Manages the interaction with AstraDB, including creating collections and storing documents.
 # Main Function
